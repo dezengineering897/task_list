@@ -1,0 +1,7 @@
+### .bandit configuration file in YAML format
+exclude_dirs:
+  - 'tests'
+  - 'test_app.py'
+
+skips:
+  - 'B101'

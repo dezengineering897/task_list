@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.git
+.gitignore
+.venv
+venv/
+*.md
+.DS_Store
+data/
+# Secrets: never bake .env into the image. docker compose injects its
+# values at runtime; for plain `docker run`, pass --env-file .env.
+.env
